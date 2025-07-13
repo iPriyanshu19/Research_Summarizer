@@ -4,7 +4,7 @@ from utils import document_loader, summarizer, qa, challenge
 from dotenv import load_dotenv
 load_dotenv()
 
-st.set_page_config(page_title="Smart Research Assistant", layout="wide")
+st.set_page_config(page_title="DocuSense", layout="wide")
 st.title("📄 Smart Assistant for Research Summarization")
 
 uploaded_file = st.file_uploader("Upload PDF or TXT", type=["pdf", "txt"])
